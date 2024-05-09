@@ -1,0 +1,34 @@
+[
+    {
+        "category": "dog",
+        "name": "corda",
+        "title": "Guinzaglio per cani",
+        "price": 3.99,
+        "description": "Guinzaglio per cani",
+        "img": "https://www.example.com/Guinzagliocani.jpg"
+    },
+    {
+        "category": "cat",
+        "name": "corda",
+        "title": "Guinzaglio per gatti",
+        "price": 3.99,
+        "description": "Guinzaglio per gatti",
+        "img": "https://www.example.com/Guinzagliocani.jpg"
+    },
+    {
+        "category": "bird",
+        "name": "legno",
+        "title": "Trespolo per canarini",
+        "price": 3.99,
+        "description": "Trespolo per canarini",
+        "img": "https://www.example.com/guinzagliocani.jpg"
+    },
+    {
+        "category": "fish",
+        "name": "vetro",
+        "title": "Boccia in vetro per pesci",
+        "price": 3.99,
+        "description": "Boccia in vetro per pesci",
+        "img": "https://www.example.com/guinzagliocani.jpg"
+    }
+]
