@@ -24,7 +24,7 @@ $toy = Toy::fetchToy();
 
 <main>
     <section class="container">
-        <h3>accessories</h3>
+        <h3 class="text-uppercase p-2 "><strong>accessories</strong></h3>
         <div class="row">
             <?php foreach ($accessory as $item) { ?>
                 <div class="col-12 col-md-4 col-lg-3">
@@ -55,7 +55,7 @@ $toy = Toy::fetchToy();
 
     </section>
     <section class="container">
-        <h3>Meal</h3>
+    <h3 class="text-uppercase p-2 "><strong>meal</strong></h3>
         <div class="row">
             <?php foreach ($meal as $item) { ?>
                 <div class="col-12 col-md-4 col-lg-3">
@@ -85,7 +85,7 @@ $toy = Toy::fetchToy();
 
     </section>
     <section class="container">
-        <h3>toy</h3>
+    <h3 class="text-uppercase p-2 "><strong>toy</strong></h3>
         <div class="row">
             <?php foreach ($toy as $item) { ?>
                 <div class="col-12 col-md-4 col-lg-3">

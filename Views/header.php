@@ -17,15 +17,13 @@
 </head>
     <body>
         <header class="vw-100">
-            <nav class="d-flex justify-content-between">
-                <div id="navLogo" class="container d-flex justify-content-between">
+            <nav class="d-flex justify-content-around ">
+                <div id="navLogo" class="container  m-0 ">
                     <div>
                         <h1>
                             Animal Shop
                         </h1>
-                        <h6>
-                            by Scappati di Casa
-                        </h6>
+    
                     </div>
                     <div>
                         <ul id="menu">
@@ -46,8 +44,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div class="d-flex justify-content-between">
+                    <div class="d-flex justify-content-between">
                     <form action="index.php" method="GET">
                             <select name="stats">
                                 <option value="all">
@@ -71,5 +68,7 @@
                         </button>
                     </form>
                 </div>
+                </div>
+                
         </nav>
     </header>

@@ -1,4 +1,4 @@
-<footer class="main text-center container">
+<footer class="main text-center ">
     <div class="d-flex justify-content-between contact p-3 ">
         <div>
             <h4>CONTATTACI</h4>
