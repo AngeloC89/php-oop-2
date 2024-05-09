@@ -5,7 +5,7 @@
         "title": "Guinzaglio per cani",
         "price": 3.99,
         "description": "Guinzaglio per cani",
-        "img": "https://www.example.com/Guinzagliocani.jpg"
+        "img": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTvLyfJzwbtH3ng4CUGOR1njibtAKFyXHm2pJYc1YzZIfdBpCm6Mv41GiN68c2MnbryXcY55R_z3PHhcCyKh7FdGJGhHLo-1QtNA5QSoPyy0OSb8EIxI0pM70-hDuPN6cPaLD5I1A&usqp=CAc"
     },
     {
         "category": "cat",
@@ -13,7 +13,7 @@
         "title": "Guinzaglio per gatti",
         "price": 3.99,
         "description": "Guinzaglio per gatti",
-        "img": "https://www.example.com/Guinzagliocani.jpg"
+        "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSkxkUDzug6PjjpTamHzQ8aben-68su3TFEeeADFx21lAzcH42Caxjt6wms_lWcKud3pUrNnI_pluWLxYIVvVxx8v7Rnc4I9WQ4puY83oCwSFcWuFu3bGJ7oixxIyvRCNGWv94FKtu3FJA&usqp=CAc"
     },
     {
         "category": "bird",
@@ -21,7 +21,7 @@
         "title": "Trespolo per canarini",
         "price": 3.99,
         "description": "Trespolo per canarini",
-        "img": "https://www.example.com/guinzagliocani.jpg"
+        "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTS_tpDMgT20EV9H5jBXnBUkKPlmv2ogmuMw-UqVHVBBEpMZVB49a1z4B3uCfz4lulwCyHAj-eqlQNi4ZGUnTuQsEKJkVPIoEDQ3ZVOzUZg8JKzI66xKUcG6ZiDvNF7j_kdye18BNI&usqp=CAc"
     },
     {
         "category": "fish",
@@ -29,6 +29,6 @@
         "title": "Boccia in vetro per pesci",
         "price": 3.99,
         "description": "Boccia in vetro per pesci",
-        "img": "https://www.example.com/guinzagliocani.jpg"
+        "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSD873N2qSeUww2Xd0MDnlm7cMvwdEzYlc24rGMYLIYGEwBpp2TbRKHKZrgSy9wRn8dN2qB9jbWjPcgm80o0SKU_SFwU-nRsJdrBuOOrLjuUYrB9Fs-LezOyhdpntSq_A&usqp=CAc"
     }
 ]

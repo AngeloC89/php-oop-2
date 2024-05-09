@@ -6,11 +6,12 @@ include __DIR__ . "/Models/Meal.php";
 include __DIR__ . "/Models/Accessory.php";
 
 
-$categories = Category::fetchCategories();
+
 // $accessories = Accessory::fetchAccessories();
 $meal = Meal::fetchMeal();
+$accessory = Accessory::fetchAccessory();
 // var_dump($category);
-var_dump($meal);
+// var_dump($meal);
 
 
 //($scadenza,$title, $price, $description, $img, $category)
@@ -20,8 +21,36 @@ var_dump($meal);
 
 
 <main>
+    <section class="container">
+        <h3>accessories</h3>
+        <div class="row">
+            <?php foreach ($accessory as $item) { ?>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="<?= $item->img ?>" class="card-img-top" alt="<?= $item->title ?>">
+                        <div class="card-body">
+                            <h5 class="card-title"><?= $item->title ?></h5>
+                            <div class="d-flex justify-content-between ">
+                                <h6 class="card-text">
+                                    <?= $item->price ?> &euro;
+                                </h6>
+                                <div>
+                                    <?= $item->description ?>
+                                </div>
+                            </div>
+                            <p>
+                                <?= $item->category->name ?>
+                            </p>
+                            <img src="<?= $item->category->logo ?>" class="card-img-top w-25 "
+                                alt="<?= $item->category->name ?>">
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
 
-    <h2>main</h2>
+    </section>
     <section class="container">
         <h3>Meal</h3>
         <div class="row">

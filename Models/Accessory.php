@@ -15,8 +15,17 @@ class Accessory extends Product
         $data = file_get_contents(__DIR__ . "/acc_db.json");
         $dataphp = json_decode($data,true);
         $accessory = [];
+        $categories = Category::fetchCategories();
+
+
         foreach ($dataphp as $key => $value) {
-            $accessory[] = new Accessory($value['category'], $value['name'], $value['title'], $value['price'],$value['description'],$value['img']);
+            $category = null;
+            foreach ($categories as $cat) {
+                if($cat-> name == $value['category']){
+                    $category = $cat;
+                }
+            }
+            $accessory[] = new Accessory($category, $value['name'], $value['title'], $value['price'],$value['description'],$value['img']);
         }
         return $accessory;
     }
