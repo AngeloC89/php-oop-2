@@ -4,10 +4,13 @@ include __DIR__ . "/Models/Category.php";
 include __DIR__ . "/Models/Toy.php";
 include __DIR__ . "/Models/Meal.php";
 
-$categoria_cane = new Category("cane", "https://c8.alamy.com/compit/2bg0cd9/modelli-di-disegno-vettoriale-del-logo-del-cane-animale-2bg0cd9.jpg");
+
+$categories = Category::fetchCategories();
+
+
 
 //($scadenza,$title, $price, $description, $img, $category)
-$croccantini = new Meal('12/12/2025', 'croccantini per cane', 9.90, 'Cibo secco senza glutine', 'https://www.bauzaar.it/media/catalog/product/0/_/0._-_2021-06-28t144750.711.png?width=700&height=700&store=default&image-type=image',$categoria_cane);
+$croccantini = new Meal('12/12/2025', 'croccantini per cane', 9.90, 'Cibo secco senza glutine', 'https://www.bauzaar.it/media/catalog/product/0/_/0._-_2021-06-28t144750.711.png?width=700&height=700&store=default&image-type=image',$categories[0]);
 ?>
 
 <main>
