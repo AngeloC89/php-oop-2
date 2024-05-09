@@ -33,7 +33,7 @@ $croccantini = new Meal('12/12/2025', 'croccantini per cane', 9.90, 'Cibo secco 
                             <p>
                                 <?= $categoria_cane->name ?>
                             </p>
-                            <img src="<?= $categoria_cane->logo ?>" class="card-img-top w-25 " alt="<?= $categoria_cane->logo ?>">
+                            <img src="<?= $croccantini->category->logo ?>" class="card-img-top w-25 " alt="<?= $croccantini->category->name ?>">
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
