@@ -29,6 +29,38 @@
         "title": "Boccia in vetro per pesci",
         "price": 3.99,
         "description": "Boccia in vetro per pesci",
-        "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSD873N2qSeUww2Xd0MDnlm7cMvwdEzYlc24rGMYLIYGEwBpp2TbRKHKZrgSy9wRn8dN2qB9jbWjPcgm80o0SKU_SFwU-nRsJdrBuOOrLjuUYrB9Fs-LezOyhdpntSq_A&usqp=CAc"
+        "img": "https://st2.depositphotos.com/1241729/6942/i/450/depositphotos_69428281-stock-photo-goldfishes-swims-in-a-fishbowl.jpg"
+    },
+    {
+        "category": "dog",
+        "name": "plastica",
+        "title": "museruola per cani",
+        "price": 3.99,
+        "description": "museruola per addestramento cani",
+        "img": "https://areaverdeshop.it/pub/media/catalog/product/cache/ec8791f4f94c563cb71872d8eb1e3003/a/r/archivio_Files-Foto-25559_2.PNG"
+    },
+    {
+        "category": "cat",
+        "name": "plastica",
+        "title": "spazzola per gatti",
+        "price": 3.99,
+        "description": "spazzola pelo per gatti",
+        "img": "https://www.shoppypet.com/355-large_default/ferplast-gro-5799-spazzola-lisciante-per-gatti.jpg"
+    },
+    {
+        "category": "bird",
+        "name": "alluminio",
+        "title": "gabbia per canarini",
+        "price": 3.99,
+        "description": "gabbiaper canarini",
+        "img": "https://tcdn.storeden.com/product/19107978/22612490"
+    },
+    {
+        "category": "fish",
+        "name": "sabbia",
+        "title": "sabbia",
+        "price": 3.99,
+        "description": "sabbia per acquario",
+        "img": "https://www.aquariumline.com/catalog/images/13978_iUXMFjIkhpsY.jpg"
     }
 ]
