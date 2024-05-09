@@ -10,7 +10,7 @@ $categories = Category::fetchCategories();
 // $accessories = Accessory::fetchAccessories();
 $meal = Meal::fetchMeal();
 // var_dump($category);
-// var_dump($meal);
+var_dump($meal);
 
 
 //($scadenza,$title, $price, $description, $img, $category)
@@ -19,36 +19,42 @@ $meal = Meal::fetchMeal();
 
 
 
-<!-- <main>
+<main>
 
     <h2>main</h2>
-
-    <h3>Meal</h3>
-    <div class="col-12 col-md-4 col-lg-3">
-        <div class="card">
-            <img src="<?= $croccantini->img ?>" class="card-img-top" alt="<?= $croccantini->title ?>">
-            <div class="card-body">
-                <h5 class="card-title"><?= $croccantini->title ?></h5>
-                <div class="d-flex justify-content-between ">
-                    <h6 class="card-text">
-                        <?= $croccantini->price ?> &euro;
-                    </h6>
-                    <div>
-                        <?= $croccantini->description ?>
+    <section class="container">
+        <h3>Meal</h3>
+        <div class="row">
+            <?php foreach ($meal as $item) { ?>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="<?= $item->img ?>" class="card-img-top" alt="<?= $item->title ?>">
+                        <div class="card-body">
+                            <h5 class="card-title"><?= $item->title ?></h5>
+                            <div class="d-flex justify-content-between ">
+                                <h6 class="card-text">
+                                    <?= $item->price ?> &euro;
+                                </h6>
+                                <div>
+                                    <?= $item->description ?>
+                                </div>
+                            </div>
+                            <p>
+                                <?= $item->category->name ?>
+                            </p>
+                            <img src="<?= $item->category->logo ?>" class="card-img-top w-25 "
+                                alt="<?= $item->category->name ?>">
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
                     </div>
                 </div>
-                <p>
-                    <?= $croccantini->category->name ?>
-                </p>
-                <img src="<?= $croccantini->category->logo ?>" class="card-img-top w-25 "
-                    alt="<?= $croccantini->category->name ?>">
-                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-            </div>
+            <?php } ?>
         </div>
-    </div>
+
+    </section>
 
 
-</main> -->
+</main>
 
 <?php
 include __DIR__ . "/Views/footer.php";
