@@ -1,0 +1,35 @@
+[
+    
+    {
+        "category": "dog",
+        "materiale": "osso",
+        "title": "Osso di osso",
+        "price": 5.90,
+        "description": "Osso naturale per cani",
+        "img": "https://www.petingros.it/images/ossa_di_bufalo_440/ossa_pelle_di_bufalo.jpg"
+    },
+    {
+        "category": "cat",
+        "materiale": "piume",
+        "title": "Giocattolo per gatti con piume",
+        "price": 3.50,
+        "description": "Giocattolo interattivo con piume per intrattenere il tuo gatto",
+        "img": "https://www.example.com/giocattologatti.jpg"
+    },
+    {
+        "category": "bird",
+        "materiale": "legno",
+        "title": "Altalena per uccelli",
+        "price": 6.99,
+        "description": "Altalena in legno per uccelli da appendere nella gabbia",
+        "img": "https://www.example.com/altalenauccelli.jpg"
+    },
+    {
+        "category": "fish",
+        "materiale": "plastica",
+        "title": "Castello sommerso per acquario",
+        "price": 9.99,
+        "description": "Decorazione in plastica per rendere l'acquario più vivace",
+        "img": "https://www.example.com/castelloacquario.jpg"
+    }
+]
