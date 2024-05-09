@@ -30,5 +30,38 @@
         "price": 3.99,
         "description": "Pellet galleggianti per pesci rossi",
         "img": "https://m.media-amazon.com/images/I/61IXCxsDiiL.jpg"
+    },
+    {
+        "category" : "dog",
+        "scadenza" : "12/12/2025",
+        "title" : "carne per cane",
+        "price" : 9.90,
+        "description" : "carne di manzo",
+        "img" : "https://barf-specialista.it/1214-large/carne-di-muscolo-di-cavallo-macinata.jpg"
+    },
+    {
+        "category" : "cat",
+        "scadenza" : "12/12/2025",
+        "title" : "carne per gatto",
+        "price" : 8.90,
+        "description" : "carne di manzo per gatti",
+        "img" : "https://www.miopetshop.com/11891-large_default/moustache-gatto-bocc-carne-415gr.jpg"
+    },
+    {
+        "category": "bird",
+        "scadenza": "12/12/2025",
+        "title": "Semi di canapa per uccelli",
+        "price": 8.50,
+        "description": "Mix di semi di canapa per uccelli esotici",
+        "img": "https://habitatzoo.com/2355-large_default/22218-semi-di-canapa-kg1.jpg"
+    },
+    {
+        "category": "fish",
+        "scadenza": "12/12/2025",
+        "title": "pond per pesci rossi",
+        "price": 3.99,
+        "description": "pond flakes per pesci ",
+        "img": "https://www.pennyejack.it/13162-large_default/prodac-pond-flakes-gr-1000-mangime-pesci-per-laghetto.jpg"
     }
+
 ]
