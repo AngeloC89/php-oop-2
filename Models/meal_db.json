@@ -6,5 +6,27 @@
         "price" : 9.90,
         "description" : "Cibo secco senza glutine",
         "img" : "https://www.bauzaar.it/media/catalog/product/0/_/0._-_2021-06-28t144750.711.png?width=700&height=700&store=default&image-type=image"
+    },
+    {
+        "category" : "cat",
+        "scadenza" : "12/12/2025",
+        "title" : "croccantini per gatto",
+        "price" : 8.90,
+        "description" : "Cibo secco senza glutine per gatti",
+        "img" : "https://m.media-amazon.com/images/I/71gB-bzxJmL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "category": "bird",
+        "title": "Semi per uccelli esotici",
+        "price": 7.50,
+        "description": "Mix di semi di alta qualità per uccelli esotici",
+        "img": "https://shop.hobbyuccelli.it/1226-large_default/esotici-prestige-versele-laga.jpg"
+    },
+    {
+        "category": "fish",
+        "title": "Pellet per pesci rossi",
+        "price": 3.99,
+        "description": "Pellet galleggianti per pesci rossi",
+        "img": "https://m.media-amazon.com/images/I/61IXCxsDiiL.jpg"
     }
 ]
