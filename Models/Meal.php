@@ -3,9 +3,9 @@ include_once __DIR__ ."/product.php";
 
 class Meal extends Product
 {
-    public $scadenza;
+    public string $scadenza;
 
-    public function __construct($category,$scadenza,$title, $price, $description, $img)
+    public function __construct($category,$title, $price, $description, $img,$scadenza)
     {
         parent::__construct($category, $title, $price, $description, $img);
         $this->scadenza = $scadenza;
@@ -24,7 +24,8 @@ class Meal extends Product
                 }
             }
 
-            $meal[] = new Meal($category, $value['scadenza'], $value['title'], $value['price'], $value['description'], $value['img']);
+            $meal[] = new Meal($category,$value['title'], $value['price'], $value['description'], $value['img'], $value['scadenza']);
+            
         }
         return $meal;
     }

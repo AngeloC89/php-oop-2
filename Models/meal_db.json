@@ -17,6 +17,7 @@
     },
     {
         "category": "bird",
+        "scadenza": "12/12/2025",
         "title": "Semi per uccelli esotici",
         "price": 7.50,
         "description": "Mix di semi di alta qualità per uccelli esotici",
@@ -24,6 +25,7 @@
     },
     {
         "category": "fish",
+        "scadenza": "12/12/2025",
         "title": "Pellet per pesci rossi",
         "price": 3.99,
         "description": "Pellet galleggianti per pesci rossi",
