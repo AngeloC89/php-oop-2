@@ -1,0 +1,102 @@
+[
+  {
+    "category": "meal for cats",
+    "products": [
+      {
+        "name": "Crocchette per gatti adulti - Pollo e riso",
+        "weight": 20,
+        "price": 25.99,
+        "overview": "Un alimento completo e bilanciato per gatti adulti di tutte le razze. Ricco di pollo e riso, questo cibo fornisce l'energia e i nutrienti necessari per mantenere il tuo gatto in salute e vitalità."
+      },
+      {
+        "name": "Cibo umido per gatti - Agnello e verdure",
+        "weight": 400,
+        "price": 4.99,
+        "overview": "Un cibo umido appetitoso e nutriente per gatti di tutte le età. A base di agnello e verdure, questo cibo è ricco di proteine e fibre, e aiuta a mantenere la digestione del tuo gatto sana e regolare."
+      },
+      {
+        "name": "Snack per gatto - Biscotti al gusto di carne",
+        "weight": 200,
+        "price": 3.99,
+        "overview": "Un premio delizioso e salutare per il tuo gatto. Questi biscotti al gusto di carne sono fatti con ingredienti di alta qualità e sono privi di conservanti artificiali."
+      },
+      {
+        "name": "Ossa di pelle di manzo",
+        "weight": 100,
+        "price": 5.99,
+        "overview": "Uno snack naturale e durevole per il tuo gatto. Queste ossa di pelle di manzo aiutano a pulire i denti e a ridurre la placca, e sono anche una fonte di proteine e fibre."
+      },
+      {
+        "name": "Salmone essiccato",
+        "weight": 50,
+        "price": 7.99,
+        "overview": "Uno snack ricco di proteine e omega-3 per il tuo gatto. Il salmone essiccato è un alimento nutriente e appetitoso che aiuta a mantenere la salute della pelle e del pelo del tuo gatto."
+      }
+    ]
+  },
+  {
+    "category": "toys for cats",
+    "products": [
+        {
+            "name": "Squeaky Tennis Ball",
+            "weight": 0.1,
+            "price": 5.99,
+            "overview": "Classic fetch toy with a fun squeaker inside."
+          },
+          {
+            "name": "Durable Rope Tug",
+            "weight": 0.2,
+            "price": 8.49,
+            "overview": "Great for interactive play and teeth cleaning."
+          },
+          {
+            "name": "Interactive Puzzle Feeder",
+            "weight": 0.5,
+            "price": 14.99,
+            "overview": "Challenges your dog mentally and keeps them entertained."
+          },
+          {
+            "name": "Plush Crinkle Toy",
+            "weight": 0.05,
+            "price": 3.99,
+            "overview": "Soft and cuddly with crinkly sounds for extra fun."
+          },
+          {
+            "name": "Flying Disc (Frisbee)",
+            "weight": 0.15,
+            "price": 7.99,
+            "overview": "Perfect for catching and chasing games outdoors."
+          },
+          {
+            "name": "Treat Dispensing Ball",
+            "weight": 0.25,
+            "price": 12.49,
+            "overview": "Rewards your dog with treats as they play."
+          },
+          {
+            "name": "Knotted Cotton Chew Toy",
+            "weight": 0.1,
+            "price": 4.59,
+            "overview": "Satisfies your dog's natural chewing instinct."
+          },
+          {
+            "name": "Rubber Chew Bone",
+            "weight": 0.3,
+            "price": 9.99,
+            "overview": "Durable and helps clean teeth while your dog chews."
+          },
+          {
+            "name": "Squeaky Plush Animal",
+            "weight": 0.2,
+            "price": 6.79,
+            "overview": "Soft and cuddly with a built-in squeaker for extra fun."
+          },
+          {
+            "name": "Floating Pool Toy",
+            "weight": 0.08,
+            "price": 9.49,
+            "overview": "Keeps your dog entertained during water playtime."
+          }
+    ]
+  }
+]

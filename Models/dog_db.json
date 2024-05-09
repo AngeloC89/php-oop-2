@@ -1,0 +1,117 @@
+{
+  
+    [
+      {
+        "title": "Crocchette per cani adulti - Pollo e riso",
+        "weight": 20,
+        "price": 25.99,
+        "description": "Un alimento completo e bilanciato per cani adulti di tutte le razze. Ricco di pollo e riso, questo cibo fornisce l'energia e i nutrienti necessari per mantenere il tuo cane in salute e vitalità."
+      },
+      {
+        "title": "Cibo umido per cani - Agnello e verdure",
+        "weight": 400,
+        "price": 4.99,
+        "description": "Un cibo umido appetitoso e nutriente per cani di tutte le età. A base di agnello e verdure, questo cibo è ricco di proteine e fibre, e aiuta a mantenere la digestione del tuo cane sana e regolare."
+      },
+      {
+        "title": "Snack per cani - Biscotti al gusto di carne",
+        "weight": 200,
+        "price": 3.99,
+        "description": "Un premio delizioso e salutare per il tuo cane. Questi biscotti al gusto di carne sono fatti con ingredienti di alta qualità e sono privi di conservanti artificiali."
+      },
+      {
+        "title": "Ossa di pelle di manzo",
+        "weight": 100,
+        "price": 5.99,
+        "description": "Uno snack naturale e durevole per il tuo cane. Queste ossa di pelle di manzo aiutano a pulire i denti e a ridurre la placca, e sono anche una fonte di proteine e fibre."
+      },
+      {
+        "title": "Salmone essiccato",
+        "weight": 50,
+        "price": 7.99,
+        "description": "Uno snack ricco di proteine e omega-3 per il tuo cane. Il salmone essiccato è un alimento nutriente e appetitoso che aiuta a mantenere la salute della pelle e del pelo del tuo cane."
+      }
+    ]
+  },
+  {
+    [
+        {
+            "title": "Squeaky Tennis Ball",
+            "weight": 0.1,
+            "price": 5.99,
+            "description": "Classic fetch toy with a fun squeaker inside."
+          },
+          {
+            "title": "Durable Rope Tug",
+            "weight": 0.2,
+            "price": 8.49,
+            "description": "Great for interactive play and teeth cleaning."
+          },
+          {
+            "title": "Interactive Puzzle Feeder",
+            "weight": 0.5,
+            "price": 14.99,
+            "description": "Challenges your dog mentally and keeps them entertained."
+          },
+          {
+            "title": "Plush Crinkle Toy",
+            "weight": 0.05,
+            "price": 3.99,
+            "description": "Soft and cuddly with crinkly sounds for extra fun."
+          },
+          {
+            "title": "Flying Disc (Frisbee)",
+            "weight": 0.15,
+            "price": 7.99,
+            "description": "Perfect for catching and chasing games outdoors."
+          },
+          {
+            "title": "Treat Dispensing Ball",
+            "weight": 0.25,
+            "price": 12.49,
+            "description": "Rewards your dog with treats as they play."
+          },
+          {
+            "title": "Knotted Cotton Chew Toy",
+            "weight": 0.1,
+            "price": 4.59,
+            "description": "Satisfies your dog's natural chewing instinct."
+          },
+          {
+            "title": "Rubber Chew Bone",
+            "weight": 0.3,
+            "price": 9.99,
+            "description": "Durable and helps clean teeth while your dog chews."
+          },
+          {
+            "title": "Squeaky Plush Animal",
+            "weight": 0.2,
+            "price": 6.79,
+            "description": "Soft and cuddly with a built-in squeaker for extra fun."
+          },
+          {
+            "title": "Floating Pool Toy",
+            "weight": 0.08,
+            "price": 9.49,
+            "description": "Keeps your dog entertained during water playtime."
+          }
+    ]
+  };
+{"animal": [
+  {
+    "dog": "Sally",
+    "age": "10"
+  },
+  {
+    "cat": "Greg",
+    "age": "10"
+  },
+  {
+    "fish": "Greg",
+    "age": "10"
+  },
+  {
+    "bird": "Greg",
+    "age": "10"
+  }
+]}
