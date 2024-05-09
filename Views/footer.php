@@ -1,6 +1,6 @@
 <footer class="main container text-center">
     <h4>copyright by &copy; scappati di casa &hearts;</h4>
-    <ul>
+    <ul class="list-unstyled">
         <li>DEVELOPERS</li>
         <li>Nicola</li>
         <li>Wojciech</li>
