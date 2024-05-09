@@ -1,5 +1,5 @@
-<footer class="main">
-    <h2 class="my-5">Footer</h2>
+<footer class="main container text-center">
+    <h4>copyright by &copy; scappati di casa &hearts;</h4>
   
 </footer>
 
