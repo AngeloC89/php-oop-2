@@ -21,35 +21,32 @@ $croccantini = new Meal('12/12/2025', 'croccantini per cane', 9.90, 'Cibo secco 
 <main>
 
     <h2>main</h2>
-   <d>
+
     <h3>Meal</h3>
-    <div class="row">
-    
-    </div>
-        <div class="col-12 col-md-4 col-lg-3">
-            <div class="card">
-                <img src="<?= $croccantini->img ?>" class="card-img-top" alt="<?= $croccantini->title ?>">
-                <div class="card-body">
-                    <h5 class="card-title"><?= $croccantini->title ?></h5>
-                    <div class="d-flex justify-content-between ">
-                        <h6 class="card-text">
-                            <?= $croccantini->price ?> &euro;
-                        </h6>
-                        <div>
-                            <?= $croccantini->description ?>
-                        </div>
+    <div class="col-12 col-md-4 col-lg-3">
+        <div class="card">
+            <img src="<?= $croccantini->img ?>" class="card-img-top" alt="<?= $croccantini->title ?>">
+            <div class="card-body">
+                <h5 class="card-title"><?= $croccantini->title ?></h5>
+                <div class="d-flex justify-content-between ">
+                    <h6 class="card-text">
+                        <?= $croccantini->price ?> &euro;
+                    </h6>
+                    <div>
+                        <?= $croccantini->description ?>
                     </div>
-                    <p>
-                        <?= $croccantini->category->name ?>
-                    </p>
-                    <img src="<?= $croccantini->category->logo ?>" class="card-img-top w-25 "
-                        alt="<?= $croccantini->category->name ?>">
-                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
+                <p>
+                    <?= $croccantini->category->name ?>
+                </p>
+                <img src="<?= $croccantini->category->logo ?>" class="card-img-top w-25 "
+                    alt="<?= $croccantini->category->name ?>">
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
         </div>
-</div>
-   </section>
+    </div>
+
+
 </main>
 
 <?php

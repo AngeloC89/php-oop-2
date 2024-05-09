@@ -14,9 +14,17 @@ class Meal extends Product
         $data = file_get_contents(__DIR__ ."/meal_db.json");
         $dataphp = json_decode($data,true);
         $meal = [];
+        $categories = Category::fetchCategories();
         
         foreach ($dataphp as $key => $value) {
-            $meal[] = new Meal( $value, $value['scadenza'], $value['title'], $value['price'], $value['description'], $value['img']);
+            $category = null;
+            foreach ($categories as $cat) {
+                if($cat-> name == $value['category']){
+                    $category = $cat;
+                }
+            }
+
+            $meal[] = new Meal($category, $value['scadenza'], $value['title'], $value['price'], $value['description'], $value['img']);
         }
         return $meal;
     }
