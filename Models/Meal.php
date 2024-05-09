@@ -5,9 +5,9 @@ class Meal extends Product
 {
     public $scadenza;
 
-    public function __construct($category,$scadenza,$title, $price, $description, $img )
+    public function __construct($category,$scadenza,$title, $price, $description, $img)
     {
-        parent::__construct($category,$title, $price, $description, $img, );
+        parent::__construct($category, $title, $price, $description, $img);
         $this->scadenza = $scadenza;
     }
     public static function fetchMeal(){

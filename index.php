@@ -7,18 +7,19 @@ include __DIR__ . "/Models/Accessory.php";
 
 
 $categories = Category::fetchCategories();
-//$accessories = Accessory::fetchAccessories();
+// $accessories = Accessory::fetchAccessories();
 $meal = Meal::fetchMeal();
-var_dump($meal);
+// var_dump($category);
+// var_dump($meal);
 
 
 //($scadenza,$title, $price, $description, $img, $category)
-$croccantini = new Meal('12/12/2025', 'croccantini per cane', 9.90, 'Cibo secco senza glutine', 'https://www.bauzaar.it/media/catalog/product/0/_/0._-_2021-06-28t144750.711.png?width=700&height=700&store=default&image-type=image', $categories[0]);
+// $croccantini = new Meal('12/12/2025', 'croccantini per cane', 9.90, 'Cibo secco senza glutine', 'https://www.bauzaar.it/media/catalog/product/0/_/0._-_2021-06-28t144750.711.png?width=700&height=700&store=default&image-type=image', $categories[0]);
 ?>
 
 
 
-<main>
+<!-- <main>
 
     <h2>main</h2>
 
@@ -47,7 +48,7 @@ $croccantini = new Meal('12/12/2025', 'croccantini per cane', 9.90, 'Cibo secco 
     </div>
 
 
-</main>
+</main> -->
 
 <?php
 include __DIR__ . "/Views/footer.php";
