@@ -6,3 +6,16 @@
 h3{
     color: blue;
 }
+footer{
+    background-color: black;
+    color: white;
+}
+.fa-star{
+    color: gold;
+}
+main section{
+    background-color: rgb(226, 226, 226);
+}
+.card-body{
+    background-color: orange;
+}
