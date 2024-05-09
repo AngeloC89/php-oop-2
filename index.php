@@ -29,7 +29,9 @@ $toy = Toy::fetchToy();
             <?php foreach ($accessory as $item) { ?>
                 <div class="col-12 col-md-4 col-lg-3">
                     <div class="card">
-                        <img src="<?= $item->img ?>" class="card-img-top" alt="<?= $item->title ?>">
+                        <div class="wp-card">
+                            <img src="<?= $item->img ?>" class="card-img-top img-thumbnail" alt="<?= $item->title ?>">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title"><?= $item->title ?></h5>
                             <div class="d-flex justify-content-between ">
@@ -40,10 +42,8 @@ $toy = Toy::fetchToy();
                                     <?= $item->description ?>
                                 </div>
                             </div>
-                            <p>
-                                <?= $item->category->name ?>
-                            </p>
-                            
+
+
                             <img src="<?= $item->category->logo ?>" class="card-img-top w-25 "
                                 alt="<?= $item->category->name ?>">
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
@@ -55,12 +55,14 @@ $toy = Toy::fetchToy();
 
     </section>
     <section class="container">
-    <h3 class="text-uppercase p-2 "><strong>meal</strong></h3>
+        <h3 class="text-uppercase p-2 "><strong>meal</strong></h3>
         <div class="row">
             <?php foreach ($meal as $item) { ?>
                 <div class="col-12 col-md-4 col-lg-3">
                     <div class="card">
-                        <img src="<?= $item->img ?>" class="card-img-top" alt="<?= $item->title ?>">
+                        <div class="wp-card">
+                            <img src="<?= $item->img ?>" class="card-img-top img-thumbnail" alt="<?= $item->title ?>">
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title"><?= $item->title ?></h5>
                             <div class="d-flex justify-content-between ">
@@ -71,9 +73,7 @@ $toy = Toy::fetchToy();
                                     <?= $item->description ?>
                                 </div>
                             </div>
-                            <p>
-                                <?= $item->category->name ?>
-                            </p>
+
                             <img src="<?= $item->category->logo ?>" class="card-img-top w-25 "
                                 alt="<?= $item->category->name ?>">
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
@@ -85,14 +85,17 @@ $toy = Toy::fetchToy();
 
     </section>
     <section class="container">
-    <h3 class="text-uppercase p-2 "><strong>toy</strong></h3>
+        <h3 class="text-uppercase p-2 "><strong>toy</strong></h3>
         <div class="row">
             <?php foreach ($toy as $item) { ?>
                 <div class="col-12 col-md-4 col-lg-3">
                     <div class="card">
-                        <img src="<?= $item->img ?>" class="card-img-top" alt="<?= $item->title ?>">
+                        <div class="wp-card">
+                            <img src="<?= $item->img ?>" class="card-img-top img-thumbnail" alt="<?= $item->title ?>">
+                        </div>
                         <div class="card-body">
-                            <h5 class="card-title"><?= $item->title ?></h5>
+                                <h5 class="card-title"><?= $item->title ?></h5>
+                                
                             <div class="d-flex justify-content-between ">
                                 <h6 class="card-text">
                                     <?= $item->price ?> &euro;
@@ -100,12 +103,10 @@ $toy = Toy::fetchToy();
                                 <div>
                                     <?= $item->description ?>
                                 </div>
+                                <img src="<?= $item->category->logo ?>" class="card-img-top"
+                                    alt="<?= $item->category->name ?>">
                             </div>
-                            <p>
-                                <?= $item->category->name ?>
-                            </p>
-                            <img src="<?= $item->category->logo ?>" class="card-img-top w-25 "
-                                alt="<?= $item->category->name ?>">
+
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>

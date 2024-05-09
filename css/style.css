@@ -7,9 +7,22 @@
 html {
     scroll-behavior: smooth;
 }
-img{
-    width: 100%;
-    display: block;
+.wp-card{
+    width: 300px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-top{
+    width: 70%;
+}
+.wp-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75px;
+    height: 75px;
 }
 h3{
     color: black;
@@ -22,11 +35,22 @@ footer{
 .fa-star{
     color: gold;
 }
+main{
+    background-image: url('https://c8.alamy.com/comp/W2PK60/dog-paw-print-pattern-seamless-on-white-background-W2PK60.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 main section{
     background-color: rgb(226, 226, 226);
+    height: calc(100% - 90px);
+}
+section{
+    padding: 30px;
 }
 .card-body{
     background-color: orange;
+    min-height: 200px;
 }
 /* NAV */
 header {
@@ -35,6 +59,7 @@ header {
 nav{
     background-color: black;
     color: white;
+    padding: 20px;
 }
 a{
     text-decoration: none;
@@ -48,9 +73,14 @@ a{
 #menu li a{
     color: white;
 }
+#menu li a:hover{
+    color: #FFA500;
+}
 #navLogo{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.btn{
+    background-color: #FFA500;
+}
