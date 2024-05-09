@@ -15,28 +15,61 @@
     <title>Animal Shop</title>
 
 </head>
-
-<body>
-    <header>
-        <h1 class="text-center">Benvenuto</h1>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
-                
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        
-                    </ul>
+    <body>
+        <header class="vw-100">
+            <nav class="d-flex justify-content-between">
+                <div id="navLogo" class="container d-flex justify-content-between">
+                    <div>
+                        <h1>
+                            Animal Shop
+                        </h1>
+                        <h6>
+                            by Scappati di Casa
+                        </h6>
+                    </div>
+                    <div>
+                        <ul id="menu">
+                            <li>
+                                <a href="index.php">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="products.php">
+                                    Products
+                                </a>
+                            </li>
+                            <li>
+                                <a href="about.php">
+                                    About us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+                <div class="d-flex justify-content-between">
+                    <form action="index.php" method="GET">
+                            <select name="stats">
+                                <option value="all">
+                                    Tutti gli animali
+                                </option>
+                                <option value="0">
+                                    Cani
+                                </option>
+                                <option value="1">
+                                    Gatti
+                                </option>
+                                <option value="2">
+                                    Uccelli
+                                </option>
+                                <option value="3">
+                                    Pesci
+                                </option>
+                            </select>
+                        <button type="submit" class="btn btn-warning text-white">
+                                Cerca
+                        </button>
+                    </form>
+                </div>
         </nav>
     </header>

@@ -1,7 +1,15 @@
+/* GENERAL */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+    display: block;
 }
 h3{
     color: blue;
@@ -18,4 +26,29 @@ main section{
 }
 .card-body{
     background-color: orange;
+}
+/* NAV */
+header {
+    height: 90px;
+}
+nav{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+#menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+#menu li a{
+    color: white;
+}
+#navLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
