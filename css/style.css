@@ -12,7 +12,8 @@ img{
     display: block;
 }
 h3{
-    color: blue;
+    color: black;
+
 }
 footer{
     background-color: black;
@@ -52,3 +53,4 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+
