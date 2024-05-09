@@ -24,7 +24,7 @@ class Toy extends Product
                     $category = $cat;
                 }
             }
-            $toy[] = new Toy($category, $value['name'], $value['title'], $value['price'],$value['description'],$value['img']);
+            $toy[] = new Toy($category, $value['materiale'], $value['title'], $value['price'],$value['description'],$value['img']);
         }
         return $toy;
     }
