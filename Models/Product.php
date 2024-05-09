@@ -15,5 +15,4 @@ class Product{
         $this->img = $img;
         $this->category = $category;
     }
-
 }
