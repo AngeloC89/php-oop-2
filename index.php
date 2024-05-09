@@ -7,6 +7,7 @@ include __DIR__ . "/Models/Accessory.php";
 
 
 
+
 // $accessories = Accessory::fetchAccessories();
 $meal = Meal::fetchMeal();
 $accessory = Accessory::fetchAccessory();
@@ -42,6 +43,7 @@ $toy = Toy::fetchToy();
                             <p>
                                 <?= $item->category->name ?>
                             </p>
+                            
                             <img src="<?= $item->category->logo ?>" class="card-img-top w-25 "
                                 alt="<?= $item->category->name ?>">
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
