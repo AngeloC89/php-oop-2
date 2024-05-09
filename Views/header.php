@@ -16,7 +16,7 @@
 
 </head>
     <body>
-        <header class="vw-100">
+        <header>
             <nav class="d-flex justify-content-around ">
                 <div id="navLogo" class="container  m-0 ">
                     <div>
